@@ -1,0 +1,20 @@
+
+body{
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    @extend %OpenSans-400;
+    font-size: 15px;
+    color: #1A1E1D;
+}
+.main{
+    flex-grow: 1;
+}
+.container{
+    max-width: 1570px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.white{
+    color: #fff !important;
+}
